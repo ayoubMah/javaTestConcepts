@@ -1,7 +1,7 @@
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class Test {
+public class Inputs {
     public static void main(String[] args) {
         FileInputStream fis = null;
 
