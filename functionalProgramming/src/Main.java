@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.Comparator;
 
-public class Main {
+public class Main{
 
     public static <T> List<T> filter( List<T> list , Predicate<T> condition) {
         List<T> filtedList = new ArrayList<>() ;
@@ -50,4 +50,7 @@ public class Main {
         System.out.println("Inventory after sorting by weight: " + inventory);
 
     }
+
+
+    Thread thread = new Thread(() -> System.out.println("Hello world")) ;
 }

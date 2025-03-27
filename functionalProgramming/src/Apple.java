@@ -1,6 +1,7 @@
 public class Apple {
     private String color ;
-    private Integer weight ;
+    private Integer weight ; // i use Integer and not int cuz  the standred class Integer in java
+                            // implements th Comparable interface
 
     public Apple(String color, Integer weight) {
         this.color = color;
