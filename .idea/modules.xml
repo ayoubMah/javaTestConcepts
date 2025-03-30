@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Race Probleme/Race Probleme.iml" filepath="$PROJECT_DIR$/Race Probleme/Race Probleme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets/Sockets.iml" filepath="$PROJECT_DIR$/Sockets/Sockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/functionalProgramming/functionalProgramming.iml" filepath="$PROJECT_DIR$/functionalProgramming/functionalProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaTestConcepts.iml" filepath="$PROJECT_DIR$/javaTestConcepts.iml" />
     </modules>
