@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenCLosePrinciple/OpenCLosePrinciple.iml" filepath="$PROJECT_DIR$/OpenCLosePrinciple/OpenCLosePrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/Race Probleme/Race Probleme.iml" filepath="$PROJECT_DIR$/Race Probleme/Race Probleme.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets/Sockets.iml" filepath="$PROJECT_DIR$/Sockets/Sockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/anonymousClasses/anonymousClasses.iml" filepath="$PROJECT_DIR$/anonymousClasses/anonymousClasses.iml" />
