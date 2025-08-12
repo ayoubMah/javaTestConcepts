@@ -25,6 +25,6 @@ public class Node<E> {
     }
 
     public String toString(){
-        return "("+data+"|"+ (next != null ?  next.data: "null");
+        return "("+data+") => ("+ (next != null ?  next.data: "null")+")";
     }
 }
