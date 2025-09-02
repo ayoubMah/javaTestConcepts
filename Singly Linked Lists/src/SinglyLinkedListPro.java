@@ -36,4 +36,11 @@ public class SinglyLinkedListPro<E> {
         tail = newOne;
         size++;
     }
+
+    public E removeFirst(){
+        if (isEmpty()) return null;
+        E answe = head.getElm();
+        head = head.getNext();
+        return answe;
+    }
 }
