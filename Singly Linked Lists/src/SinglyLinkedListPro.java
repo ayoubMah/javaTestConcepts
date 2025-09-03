@@ -1,5 +1,4 @@
 public class SinglyLinkedListPro<E> {
-    private NodeProMax<E> head = null;
     private NodeProMax<E> tail = null;
     private int size = 0;
 
@@ -15,7 +14,7 @@ public class SinglyLinkedListPro<E> {
 
     public E getFirst(){
         if (this.isEmpty()) return null;
-        return head.getElm();
+        return null;
     }
 
     public E getLast(){
@@ -24,23 +23,17 @@ public class SinglyLinkedListPro<E> {
     }
 
     public void addFirst(E elm){
-        head = new NodeProMax<>(elm, head);
-        if (size == 0) tail = head;
         size ++;
     }
 
     public void addLast(E elm){
         NodeProMax<E> newOne = new NodeProMax<>(elm, null);
-        if (size == 0) head = newOne;
-        else tail.setNext(newOne);
         tail = newOne;
         size++;
     }
 
     public E removeFirst(){
         if (isEmpty()) return null;
-        E answe = head.getElm();
-        head = head.getNext();
-        return answe;
+        return null;
     }
 }
