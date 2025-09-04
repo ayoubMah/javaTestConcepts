@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Caesar Cipher/Caesar Cipher.iml" filepath="$PROJECT_DIR$/Caesar Cipher/Caesar Cipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircularlyLinkedLists/CircularlyLinkedLists.iml" filepath="$PROJECT_DIR$/CircularlyLinkedLists/CircularlyLinkedLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenCLosePrinciple/OpenCLosePrinciple.iml" filepath="$PROJECT_DIR$/OpenCLosePrinciple/OpenCLosePrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/Race Probleme/Race Probleme.iml" filepath="$PROJECT_DIR$/Race Probleme/Race Probleme.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singly Linked Lists/Singly Linked Lists.iml" filepath="$PROJECT_DIR$/Singly Linked Lists/Singly Linked Lists.iml" />
