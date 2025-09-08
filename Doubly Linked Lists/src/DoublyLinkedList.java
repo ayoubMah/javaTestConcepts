@@ -1,10 +1,14 @@
 public class DoublyLinkedList<E> {
 
-    private Node<E> head = null;
-    private Node<E> tail = null;
+    private Node<E> head ;
+    private Node<E> tail ;
     private int size = 0;
 
-    public DoublyLinkedList(){}
+    public DoublyLinkedList(){
+        head = new Node(null,null,null);
+        tail = new Node(head,null,null);
+        head.setNext(tail);
+    }
 
     public int size(){
         return size;
