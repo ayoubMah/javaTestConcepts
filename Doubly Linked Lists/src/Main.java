@@ -1,28 +1,22 @@
 public class Main {
     public static void main(String[] args) {
 
-        DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
+            DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
 
-        // Create nodes to add
-        Node<Integer> n1 = new Node<>(null, 10, null);
-        Node<Integer> n2 = new Node<>(null, 5, null);
-        Node<Integer> n3 = new Node<>(null, 20, null);
-        Node<Integer> n4 = new Node<>(null, 25, null);
+            System.out.println("Empty: " + list);
 
-        System.out.println("Empty list: " + list);
+            list.addFirst(10);
+            list.addFirst(5);
+            list.addLast(20);
+            list.addLast(25);
+            System.out.println("After adding: " + list); // [5, 10, 20, 25]
 
-        list.addFirst(n1);
-        list.addFirst(n2);
-        list.addLast(n3);
-        list.addLast(n4);
-        System.out.println("After adding: " + list);
+            System.out.println("First removed: " + list.removeFirst()); // 5
+            System.out.println("Last removed: " + list.removeLast());   // 25
+            System.out.println("Now: " + list); // [10, 20]
 
-        System.out.println("Removed first: " + list.removeFirst());
-        System.out.println("Removed last: " + list.removeLast());
-        System.out.println("List now: " + list);
-
-        System.out.println("First element: " + list.first());
-        System.out.println("Last element: " + list.last());
-        System.out.println("Size: " + list.size());
+            System.out.println("First element: " + list.first()); // 10
+            System.out.println("Last element: " + list.last());   // 20
+            System.out.println("Size: " + list.size());           // 2
     }
 }
